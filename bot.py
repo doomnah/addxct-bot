@@ -142,7 +142,7 @@ def save_warnings(data):
 # -------------------------
 @bot.event
 async def on_ready():
-    print(f"✅ Logged in as {bot.user}")
+    print(f"✅ Logged inn as {bot.user}")
 
 @bot.event
 async def on_message_delete(message):
